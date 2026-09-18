@@ -1,0 +1,14 @@
+name: capstone_project
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip=23.2.1
+  - pandas=2.2.2
+  - scikit-learn=1.5.1
+  - matplotlib=3.8.2
+  - seaborn=0.13.2
+  - jupyterlab=4.3.2
+  - pip:
+    - sqlalchemy
